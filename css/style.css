@@ -51,11 +51,17 @@ ul li {
 .item > p > span {
    font-size: 11px;
 }
+.item > p {
+   display: inline-block;
+}
 p > span:before {
    content: '(';
 }
 p > span:after {
    content: ')';
+}
+.item > input {
+   display: inline-block;
 }
 .item:nth-child(odd) {
    background-color: #88839E;
